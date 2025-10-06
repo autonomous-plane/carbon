@@ -21,6 +21,8 @@
 
 ### Containers
 
+Run: `docker run -it --rm -p 3000:3000 dslimexamples/carbon.now.sh`
+
 Existing container image in the DockerHub registry: `https://hub.docker.com/r/autonomousplane/carbon.now.sh` (get it with `docker pull autonomousplane/carbon.now.sh`)
 
 This fork containerizes the project because the upstream is interested only in their Vercel-based non-container deployment.
